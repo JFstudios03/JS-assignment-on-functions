@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-section{
+    background: linear-gradient(rgba(1, 21, 41, 0.7), rgba(1, 9, 17, 0.9)), url(Images/prime.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: rgba(6, 181, 184, 0.7);
+    padding: 20px 24px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 30px 0px rgba(6, 181, 184, 0.678);
+}
+
+.hero-text{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: rgb(2, 14, 26);
+}
+
+.hero-subtext{
+    font-size: 30px;
+    margin: 10px auto 40px;
+    color: rgb(2, 14, 26);
+}
+
+.buycredit{
+    background-color: rgb(2, 14, 26)    ;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+.buycredit:hover{
+    background-color: rgb(6, 39, 71);
+}
+
+.copyright{
+    margin-top: 40px;
+    color: rgba(2, 14, 26, 0.7);
+}
+
+/* Media query */
+@media (max-width:768px) {
+    .hero{
+        padding: 20px 24px;
+        width: 80%;
+        margin: auto;
+    }   
+    .hero-text{
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30px;
+        color: rgb(2, 14, 26);
+    }   
+    .hero-subtext{
+        font-size: 15px;
+        margin: 10px auto 20px;
+        color: rgb(2, 14, 26);
+    }   
+    .copyright{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+}
